@@ -164,20 +164,13 @@ sections:
 
 - name: Social & News
   icon: far fa-thumbs-upwidgets:
-  - title: 'Random Quote'
-    type: 'custom-data'
-    data:
-      url: 'https://api.quotable.io/random'
-      method: GET
-      headers: {}
-      refreshInterval: 1800 # Refresh every 30 minutes
-    display:
-      type: 'key-value-list'
-      items:
-        - key: 'Content'
-          valuePath: 'content'
-        - key: 'Author'
-          valuePath: 'author'
+  widgets:
+  # ... (your other widget configurations)
+  - title: 'Quote of the Day'
+    type: 'notice-board'
+    content:
+      - icon: 'mdi-format-quote-close'
+        text: 'We are what we repeatedly do. Excellence, then, is not an act but a habit.'
   #widgets:  # Ensure that the widgets key is used here
    # - type: news-headlines
     #  options:
