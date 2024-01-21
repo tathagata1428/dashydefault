@@ -194,8 +194,7 @@ sections:
         description: News
         provider: Digi24
     widgets:
-      - title: 'Quote of the Day'
-        type: 'notice-board'
-        content:
-          - icon: 'mdi-format-quote-close'
-            text: 'We are what we repeatedly do. Excellence, then, is not an act but a habit.'
+  - title: 'Quote of the Day'
+    type: 'notice-board'
+    content:
+      - text: 'We are what we repeatedly do. Excellence, then, is not an act but a habit.'
