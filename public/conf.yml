@@ -14,188 +14,188 @@ appConfig:
   layout: vertical
   iconSize: small
 
-# Main content - An array of sections, each containing an array of items
+# Main content - An array of sections, each containing an array of items or widgets
 sections:
-- name: Today
-  icon: far fa-smile-beam
-  displayData:
-    collapsed: false
-    hideForGuests: false
-  widgets:
-  - type: clock
-  - type: weather
-    options:
-      apiKey: efdbade728b37086877a5e83442004db
-      city: Bucharest
-  - type: crypto-watch-list
-    options:
-      currency: EUR
-      sortBy: marketCap
-      assets:
-      - bitcoin
-      - ethereum
-  - type: exchange-rates
-    options:
-      apiKey: 8d2ae271c8b5775f4eb7fe59
-      inputCurrency: EUR
-      outputCurrencies:
-        - RON
-        - USD
-        - GBP
-  - type: stock-price-chart
-    options:
-      stock: VOO
-      apiKey: WU6QQXMALBL5ETKJ
+  - name: Today
+    icon: far fa-smile-beam
+    displayData:
+      collapsed: false
+      hideForGuests: false
+    widgets:
+      - type: clock
+      - type: weather
+        options:
+          apiKey: efdbade728b37086877a5e83442004db
+          city: Bucharest
+      - type: crypto-watch-list
+        options:
+          currency: EUR
+          sortBy: marketCap
+          assets:
+            - bitcoin
+            - ethereum
+      - type: exchange-rates
+        options:
+          apiKey: 8d2ae271c8b5775f4eb7fe59
+          inputCurrency: EUR
+          outputCurrencies:
+            - RON
+            - USD
+            - GBP
+      - type: stock-price-chart
+        options:
+          stock: VOO
+          apiKey: WU6QQXMALBL5ETKJ
 
+  - name: Productivity
+    icon: far fa-briefcase
+    items:
+      - title: Mail
+        icon: https://cdn.iconscout.com/icon/premium/png-512-thumb/email-link-7313977-6705073.png?f=webp
+        url: https://outlook.office365.com/
+        description: Primary email account
+        tags: [hosted, personal, email, mail]
+        hotkey: 1
+      - title: Proton Mail
+        icon: favicon
+        url: https://account.proton.me/mail
+        description: Secondary email account
+        tags: [hosted, personal, email, mail]
+        hotkey: 2
+      - title: AnonAddy
+        icon: favicon
+        url: https://app.anonaddy.com/
+        description: Mail alias forwarder
+        tags: [hosted, personal, forwarder, aliases, email]
+        hotkey: 3
+        statusCheckAcceptCodes: '401'
+      - title: Passbolt
+        icon: favicon
+        url: https://password.b4it.ro
+        description: Deterministic password generator
+        tags: [hosted, personal, password, generate, deterministic]
+        hotkey: 4
+      - title: Music for work
+        icon: favicon
+        url: https://www.youtube.com/watch?v=4kLviL8XwAI
+        description: Music For work
+        tags: [Music,Work]
+        hotkey: 5
+      - title: Tasks
+        icon: https://i.ibb.co/v4jznK0/todo-list.png
+        url: https://cloud.b4it.ro/index.php/apps/deck/#/board/1
+        description: Todo list and tasks from CalDAV
+        tags: [hosted, personal, caldav, tasks, planning]
+        hotkey: 6
+      - title: SharePoint
+        icon: favicon
+        url: https://tralaa12-my.sharepoint.com/personal/bogdan_radu_b4it_ro/_layouts/15/onedrive.aspx?view=1
+        description: Off-site encrypted file sync + backup
+        tags: [hosted, personal, files, backup, sync, storage]
+        hotkey: 7
+      - title: Microsoft Todo
+        icon: favicon
+        url: https://outlook.office.com/host/0d5c91ee-5be2-4b79-81ed-23e6c4580427/ToDoId
+        description: Notes
+        tags: [hosted, personal, notes]
+        hotkey: 8
+      - title: Nextcloud
+        icon: favicon
+        url: https://cloud.b4it.ro
+        description: Personal storage
+        tags: [hosted, personal, storage]
+        hotkey: 9
+      - title: ChatGPT
+        icon: favicon
+        url: https://chat.openai.com/?model=gpt-4
+        description: AI
+        tags: [Generative AI]
+        hotkey: 10
 
-- name: Productivity
-  icon: far fa-briefcase
-  items:
-  - title: Mail
-    icon: https://cdn.iconscout.com/icon/premium/png-512-thumb/email-link-7313977-6705073.png?f=webp
-    url: https://outlook.office365.com/
-    description: Primary email account
-    tags: [hosted, personal, email, mail]
-    hotkey: 1
-  - title: Proton Mail
-    icon: favicon
-    url: https://account.proton.me/mail
-    description: Secondary email account
-    tags: [hosted, personal, email, mail]
-    hotkey: 2
-  - title: AnonAddy
-    icon: favicon
-    url: https://app.anonaddy.com/
-    description: Mail alias forwarder
-    tags: [hosted, personal, forwarder, aliases, email]
-    hotkey: 3
-    statusCheckAcceptCodes: '401'
-  - title: Passbolt
-    icon: favicon
-    url: https://password.b4it.ro
-    description: Deterministic password generator
-    tags: [hosted, personal, password, generate, deterministic]
-    hotkey: 4
-  - title: Music for work
-    icon: favicon
-    url: https://www.youtube.com/watch?v=4kLviL8XwAI
-    description: Music For work
-    tags: [Music,Work]
-    hotkey: 5
-  - title: Tasks
-    icon: https://i.ibb.co/v4jznK0/todo-list.png
-    url: https://cloud.b4it.ro/index.php/apps/deck/#/board/1
-    description: Todo list and tasks from CalDAV
-    tags: [hosted, personal, caldav, tasks, planning]
-    hotkey: 6
-  - title: SharePoint
-    icon: favicon
-    url: https://tralaa12-my.sharepoint.com/personal/bogdan_radu_b4it_ro/_layouts/15/onedrive.aspx?view=1
-    description: Off-site encrypted file sync + backup
-    tags: [hosted, personal, files, backup, sync, storage ]
-    hotkey: 7
-  - title: Microsoft Todo
-    icon: favicon
-    url: https://outlook.office.com/host/0d5c91ee-5be2-4b79-81ed-23e6c4580427/ToDoId
-    description: Notes
-    tags: [hosted, personal, notes ]
-    hotkey: 8
-  - title: Nextcloud
-    icon: favicon
-    url: https://cloud.b4it.ro
-    description: Personal storage
-    tags: [hosted, personal, storage ]
-    hotkey: 9
-  - title: ChatGPT
-    icon: favicon
-    url: https://chat.openai.com/?model=gpt-4
-    description: AI
-    tags: [Generative AI ]
-    hotkey: 10
+  - name: Dev & Cloud
+    icon: far fa-code
+    items:
+      - title: GitHub
+        icon: favicon
+        url: https://github.com/tathagata1428
+      - title: StackOverflow
+        icon: favicon
+        url: http://stackoverflow.com/
+      - title: Oracle Cloud
+        icon: favicon
+        url: https://www.oracle.com/cloud/sign-in.html
+        statusCheckAcceptCodes: '403'
+      - title: Vercel deploy
+        icon: favicon
+        url: https://vercel.com/bogdans-projects-061aab75/dashydefault/FbqafKDTAYPhUfZ346ExTiXqnLn2
+      - title: Domain
+        icon: favicon
+        url: https://id.gandi.net/en/login
+      - title: Hack the Box
+        icon: favicon
+        url: https://www.hackthebox.com/home
+      - title: Documentation
+        subItems:
+          - title: JavaScript
+            url: https://developer.mozilla.org
+            icon: si-javascript
+            color: '#F7DF1E'
+          - title: TypeScript
+            url: https://www.typescriptlang.org/docs
+            icon: si-typescript
+            color: '#3178C6'
+          - title: Groovy
+            url: https://groovy-lang.org/documentation.html
+            icon: https://assets-global.website-files.com/6047a9e35e5dc54ac86ddd90/6301873066c662cd9642d8b1_c9fca092.png
+            color: '#FF3E00'
+          - title: Go
+            url: https://go.dev/doc
+            icon: si-go
+            color: '#00ADD8'
+          - title: Rust
+            url: https://doc.rust-lang.org/reference
+            icon: si-rust
+            color: '#000000'
+          - title: Docker
+            url: https://docs.docker.com/
+            icon: si-docker
+            color: '#2496ED'
 
-- name: Dev & Cloud
-  icon: far fa-code
-  items:
-  - title: GitHub
-    icon: favicon
-    url: https://github.com/tathagata1428
-  - title: StackOverflow
-    icon: favicon
-    url: http://stackoverflow.com/
-  - title: Oracle Cloud
-    icon: favicon
-    url: https://www.oracle.com/cloud/sign-in.html
-    statusCheckAcceptCodes: '403'
-  - title: Vercel deploy
-    icon: favicon
-    url: https://vercel.com/bogdans-projects-061aab75/dashydefault/FbqafKDTAYPhUfZ346ExTiXqnLn2
-  - title: Domain
-    icon: favicon
-    url: https://id.gandi.net/en/login
-  - title: Hack the Box
-    icon: favicon
-    url: https://www.hackthebox.com/home
-  - title: Documentation
-    subItems:
-    - title: JavaScript
-      url: https://developer.mozilla.org
-      icon: si-javascript
-      color: '#F7DF1E'
-    - title: TypeScript
-      url: https://www.typescriptlang.org/docs
-      icon: si-typescript
-      color: '#3178C6'
-    - title: Groovy
-      url: https://groovy-lang.org/documentation.html
-      icon: https://assets-global.website-files.com/6047a9e35e5dc54ac86ddd90/6301873066c662cd9642d8b1_c9fca092.png
-      color: '#FF3E00'
-    - title: Go
-      url: https://go.dev/doc
-      icon: si-go
-      color: '#00ADD8'
-    - title: Rust
-      url: https://doc.rust-lang.org/reference
-      icon: si-rust
-      color: '#000000'
-    - title: Docker
-      url: https://docs.docker.com/
-      icon: si-docker
-      color: '#2496ED'
   - name: Social & News
-  icon: far fa-thumbs-up
-  items:
-    - title: Discord
-      icon: si-discord
-      url: https://discord.com/channels/
-    - title: Mastodon
-      icon: si-mastodon
-      url: https://mastodon.social/
-    - title: Reddit
-      icon: si-reddit
-      url: https://www.reddit.com/r/romania
-    - title: HackerNews
-      icon: si-ycombinator
-      url: https://news.ycombinator.com/
-    - title: Twitter
-      icon: si-twitter
-      url: https://twitter.com/
-    - title: YouTube
-      icon: si-youtube
-      url: https://youtube.com/
-    - title: Instagram
-      icon: si-instagram
-      url: https://www.instagram.com/
-    - title: News
-      icon: si-bbc
-      url: https://bbc.co.uk/news
-    - title: News Romania
-      icon: fa fa-newspaper-o
-      url: https://www.digi24.ro
-      description: News
-      provider: Digi24
-  widgets:
-    - title: 'Quote of the Day'
-      type: 'notice-board'
-      content:
-        - icon: 'mdi-format-quote-close'
-          text: 'We are what we repeatedly do. Excellence, then, is not an act but a habit.'
+    icon: far fa-thumbs-up
+    items:
+      - title: Discord
+        icon: si-discord
+        url: https://discord.com/channels/
+      - title: Mastodon
+        icon: si-mastodon
+        url: https://mastodon.social/
+      - title: Reddit
+        icon: si-reddit
+        url: https://www.reddit.com/r/romania
+      - title: HackerNews
+        icon: si-ycombinator
+        url: https://news.ycombinator.com/
+      - title: Twitter
+        icon: si-twitter
+        url: https://twitter.com/
+      - title: YouTube
+        icon: si-youtube
+        url: https://youtube.com/
+      - title: Instagram
+        icon: si-instagram
+        url: https://www.instagram.com/
+      - title: News
+        icon: si-bbc
+        url: https://bbc.co.uk/news
+      - title: News Romania
+        icon: fa fa-newspaper-o
+        url: https://www.digi24.ro
+        description: News
+        provider: Digi24
+    widgets:
+      - title: 'Quote of the Day'
+        type: 'notice-board'
+        content:
+          - icon: 'mdi-format-quote-close'
+            text: 'We are what we repeatedly do. Excellence, then, is not an act but a habit.'
