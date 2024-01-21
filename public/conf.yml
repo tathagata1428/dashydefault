@@ -160,7 +160,6 @@ sections:
             url: https://docs.docker.com/
             icon: si-docker
             color: '#2496ED'
-
   - name: Social & News
   icon: far fa-thumbs-up
   items:
@@ -195,8 +194,11 @@ sections:
       provider: Digi24
   widgets:
     - title: 'Quote of the Day'
-      type: 'markdown'
+      type: 'custom-html'
       content: |
-        > "We are what we repeatedly do. Excellence, then, is not an act but a habit."
-        > 
-        > *Aristotle*
+        <div style="font-size: 16px; color: #333; text-align: center;">
+          <p>"We are what we repeatedly do. Excellence, then, is not an act but a habit."</p>
+          <p style="font-style: italic;">- Aristotle</p>
+        </div>
+
+  
