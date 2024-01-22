@@ -1,4 +1,3 @@
----
 # Page meta info, like heading, footer text and nav links
 pageInfo:
   title: Hello, Bogdan
@@ -8,7 +7,7 @@ pageInfo:
 # Optional app settings and configuration
 appConfig:
   statusCheck: false
-  theme: charry-blossom
+  theme: cherry-blossom  # Corrected the theme name
   fontAwesomeKey: c94dc2b452
   customCss: '.clock p.time { font-size: 3rem !important; }'
   layout: vertical
@@ -79,7 +78,7 @@ sections:
         icon: favicon
         url: https://www.youtube.com/watch?v=4kLviL8XwAI
         description: Music For work
-        tags: [Music,Work]
+        tags: [Music, Work]
         hotkey: 5
       - title: Tasks
         icon: https://i.ibb.co/v4jznK0/todo-list.png
