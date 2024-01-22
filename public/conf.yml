@@ -7,7 +7,7 @@ pageInfo:
 # Optional app settings and configuration
 appConfig:
   statusCheck: false
-  theme: cherry-blossom  # Corrected the theme name
+  theme: nord  # Corrected the theme name
   fontAwesomeKey: c94dc2b452
   customCss: '.clock p.time { font-size: 3rem !important; }'
   layout: vertical
