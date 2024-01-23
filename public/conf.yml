@@ -47,69 +47,78 @@ sections:
           apiKey: WU6QQXMALBL5ETKJ
 
   - name: Productivity
-    icon: far fa-briefcase
-    items:
-      - title: Mail
-        icon: https://cdn.iconscout.com/icon/premium/png-512-thumb/email-link-7313977-6705073.png?f=webp
-        url: https://outlook.office365.com/
-        description: Primary email account
-        tags: [hosted, personal, email, mail]
-        hotkey: 1
-      - title: Proton Mail
-        icon: favicon
-        url: https://account.proton.me/mail
-        description: Secondary email account
-        tags: [hosted, personal, email, mail]
-        hotkey: 2
-      - title: AnonAddy
-        icon: favicon
-        url: https://app.anonaddy.com/
-        description: Mail alias forwarder
-        tags: [hosted, personal, forwarder, aliases, email]
-        hotkey: 3
-        statusCheckAcceptCodes: '401'
-      - title: Passbolt
-        icon: favicon
-        url: https://password.b4it.ro
-        description: Deterministic password generator
-        tags: [hosted, personal, password, generate, deterministic]
-        hotkey: 4
-      - title: Music for work
-        icon: favicon
-        url: https://www.youtube.com/watch?v=4kLviL8XwAI
-        description: Music For work
-        tags: [Music, Work]
-        hotkey: 5
-      - title: Tasks
-        icon: https://i.ibb.co/v4jznK0/todo-list.png
-        url: https://cloud.b4it.ro/index.php/apps/deck/#/board/1
-        description: Todo list and tasks from CalDAV
-        tags: [hosted, personal, caldav, tasks, planning]
-        hotkey: 6
-      - title: SharePoint
-        icon: favicon
-        url: https://tralaa12-my.sharepoint.com/personal/bogdan_radu_b4it_ro/_layouts/15/onedrive.aspx?view=1
-        description: Off-site encrypted file sync + backup
-        tags: [hosted, personal, files, backup, sync, storage]
-        hotkey: 7
-      - title: Microsoft Todo
-        icon: favicon
-        url: https://outlook.office.com/host/0d5c91ee-5be2-4b79-81ed-23e6c4580427/ToDoId
-        description: Notes
-        tags: [hosted, personal, notes]
-        hotkey: 8
-      - title: Nextcloud
-        icon: favicon
-        url: https://cloud.b4it.ro
-        description: Personal storage
-        tags: [hosted, personal, storage]
-        hotkey: 9
-      - title: ChatGPT
-        icon: favicon
-        url: https://chat.openai.com/?model=gpt-4
-        description: AI
-        tags: [Generative AI]
-        hotkey: 10
+  icon: far fa-briefcase
+  items:
+    - title: Mail
+      icon: https://cdn.iconscout.com/icon/premium/png-512-thumb/email-link-7313977-6705073.png?f=webp
+      url: https://outlook.office365.com/
+      description: Primary email account
+      tags: [hosted, personal, email, mail]
+      hotkey: 1
+    - title: Proton Mail
+      icon: favicon
+      url: https://account.proton.me/mail
+      description: Secondary email account
+      tags: [hosted, personal, email, mail]
+      hotkey: 2
+    - title: AnonAddy
+      icon: favicon
+      url: https://app.anonaddy.com/
+      description: Mail alias forwarder
+      tags: [hosted, personal, forwarder, aliases, email]
+      hotkey: 3
+      statusCheckAcceptCodes: '401'
+    - title: Passbolt
+      icon: favicon
+      url: https://password.b4it.ro
+      description: Deterministic password generator
+      tags: [hosted, personal, password, generate, deterministic]
+      hotkey: 4
+    - title: Music for work
+      icon: favicon
+      url: https://www.youtube.com/watch?v=4kLviL8XwAI
+      description: Music For work
+      tags: [Music, Work]
+      hotkey: 5
+    - title: Tasks
+      icon: https://i.ibb.co/v4jznK0/todo-list.png
+      url: https://cloud.b4it.ro/index.php/apps/deck/#/board/1
+      description: Todo list and tasks from CalDAV
+      tags: [hosted, personal, caldav, tasks, planning]
+      hotkey: 6
+    - title: SharePoint
+      icon: favicon
+      url: https://tralaa12-my.sharepoint.com/personal/bogdan_radu_b4it_ro/_layouts/15/onedrive.aspx?view=1
+      description: Off-site encrypted file sync + backup
+      tags: [hosted, personal, files, backup, sync, storage]
+      hotkey: 7
+    - title: Microsoft Todo
+      icon: favicon
+      url: https://outlook.office.com/host/0d5c91ee-5be2-4b79-81ed-23e6c4580427/ToDoId
+      description: Notes
+      tags: [hosted, personal, notes]
+      hotkey: 8
+    - title: Nextcloud
+      icon: favicon
+      url: https://cloud.b4it.ro
+      description: Personal storage
+      tags: [hosted, personal, storage]
+      hotkey: 9
+    - title: ChatGPT
+      icon: favicon
+      url: https://chat.openai.com/?model=gpt-4
+      description: AI
+      tags: [Generative AI]
+      hotkey: 10
+  widgets:
+    - type: anonaddy
+      options:
+        apiKey: "addy_io_PkqUrapMXBI5rHxitWwKwZuckSpPd4LnwciVsGPf972bd699"
+        limit: 5
+        sortBy: created_at
+        disableControls: true
+
+      
 
   - name: Dev & Cloud
     icon: far fa-code
