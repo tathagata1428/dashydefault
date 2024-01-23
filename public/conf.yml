@@ -192,3 +192,8 @@ sections:
         url: https://www.digi24.ro
         description: News
         provider: Digi24
+      - title: IBKR
+        icon: favicon
+        url: https://www.interactivebrokers.co.uk/sso/Login
+        description: Trading platform
+        provider: IBKR  
