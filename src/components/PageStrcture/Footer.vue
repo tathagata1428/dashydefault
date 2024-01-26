@@ -24,12 +24,12 @@ export default {
   props: {
     text: String,
     authorName: { type: String, default: 'Bogdan Radu' },
-    authorUrl: { type: String, default: 'https://aliciasykes.com' },
+    authorUrl: { type: String, default: 'https://github.com/tathagata1428' },
     license: { type: String, default: 'MIT' },
-    licenseUrl: { type: String, default: 'https://gist.github.com/Lissy93/143d2ee01ccc5c052a17' },
+    licenseUrl: { type: String, default: 'https://github.com/tathagata1428' },
     date: { type: String, default: `${new Date().getFullYear()}` },
     showCopyright: { type: Boolean, default: true },
-    repoUrl: { type: String, default: 'https://github.com/lissy93/dashy' },
+    repoUrl: { type: String, default: 'https://github.com/tathagata1428' },
   },
   computed: {
     visible() {
