@@ -164,9 +164,9 @@ sections:
   - name: Social & News
     icon: far fa-thumbs-up
     items:
-      - title: Discord
-        icon: si-discord
-        url: https://discord.com/channels/
+      - title: Linkedin
+        icon: favicon
+        url: https://www.linkedin.com/in/bogdan-radu-b27964137/
       - title: Business Insider
         icon: favicon
         url: https://www.businessinsider.com/
