@@ -23,7 +23,7 @@ export default {
   name: 'Footer',
   props: {
     text: String,
-    authorName: { type: String, default: 'Alicia Sykes' },
+    authorName: { type: String, default: 'Bogdan Radu' },
     authorUrl: { type: String, default: 'https://aliciasykes.com' },
     license: { type: String, default: 'MIT' },
     licenseUrl: { type: String, default: 'https://gist.github.com/Lissy93/143d2ee01ccc5c052a17' },
