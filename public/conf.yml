@@ -86,10 +86,10 @@ sections:
         description: Todo list and tasks from CalDAV
         tags: [hosted, personal, caldav, tasks, planning]
         hotkey: 6
-      - title: SharePoint
-        icon: favicon
-        url: https://tralaa12-my.sharepoint.com/personal/bogdan_radu_b4it_ro/_layouts/15/onedrive.aspx?view=1
-        description: Off-site encrypted file sync + backup
+      - title: Journal
+        icon: https://cdn-icons-png.flaticon.com/512/3066/3066332.png
+        url: http://journal.b4it.ro:8080
+        description: Journaling selfhosted
         tags: [hosted, personal, files, backup, sync, storage]
         hotkey: 7
       - title: Microsoft Todo
