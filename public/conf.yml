@@ -88,7 +88,7 @@ sections:
         hotkey: 6
       - title: Journal
         icon: https://cdn-icons-png.flaticon.com/512/3066/3066332.png
-        url: http://journal.b4it.ro:8080
+        url: https://journal.b4it.ro
         description: Journaling selfhosted
         tags: [hosted, personal, files, backup, sync, storage]
         hotkey: 7
