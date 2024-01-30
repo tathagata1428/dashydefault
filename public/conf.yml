@@ -26,6 +26,13 @@ sections:
         options:
           apiKey: efdbade728b37086877a5e83442004db
           city: Bucharest
+      - type: crypto-watch-list
+        options:
+          currency: EUR
+          sortBy: marketCap
+          assets:
+            - bitcoin
+            - ethereum
 
   - name: Productivity
     icon: far fa-briefcase
@@ -180,15 +187,8 @@ sections:
         provider: IBKR
 
   - name: Financial
-    icon: far fa-cash
+    icon: far fa-money
     widgets:
-      - type: crypto-watch-list
-        options:
-          currency: EUR
-          sortBy: marketCap
-          assets:
-            - bitcoin
-            - ethereum
       - type: exchange-rates
         options:
           apiKey: 8d2ae271c8b5775f4eb7fe59
