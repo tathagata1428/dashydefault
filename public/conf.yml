@@ -26,7 +26,6 @@ sections:
         options:
           apiKey: efdbade728b37086877a5e83442004db
           city: Bucharest
-         
 
   - name: Productivity
     icon: far fa-briefcase
@@ -92,7 +91,6 @@ sections:
         description: AI
         tags: [Generative AI]
         hotkey: 10
-        
 
   - name: Dev & Cloud
     icon: far fa-code
@@ -180,7 +178,8 @@ sections:
         url: https://www.interactivebrokers.co.uk/sso/Login
         description: Trading platform
         provider: IBKR
-   - name: Financial
+
+  - name: Financial
     icon: far fa-cash
     widgets:
       - type: crypto-watch-list
@@ -201,4 +200,4 @@ sections:
       - type: stock-price-chart
         options:
           stock: VOO
-          apiKey: WU6QQXMALBL5ETKJ     
+          apiKey: WU6QQXMALBL5ETKJ
