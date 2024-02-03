@@ -118,9 +118,9 @@ sections:
       - title: Domain
         icon: favicon
         url: https://id.gandi.net/en/login
-      - title: Hack the Box
-        icon: favicon
-        url: https://www.hackthebox.com/home
+      - title: FileList
+        icon: https://upload.wikimedia.org/wikipedia/commons/1/16/The_Pirate_Bay_logo.svg
+        url: https://filelist.io/
       - title: Documentation
         subItems:
           - title: JavaScript
