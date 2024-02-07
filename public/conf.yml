@@ -1,4 +1,10 @@
-# Page meta info, like heading, footer text and nav links
+appConfig:
+  auth:
+    users:
+    - user: bogdan
+      hash: 1B99C3F079498CA98D48F9F535296E1B032EAF5A65A33C4346FF555254B9422D
+      type: admin
+    # Page meta info, like heading, footer text and nav links
 pageInfo:
   title: Hello, Bogdan
   description: General browser startpage
@@ -118,9 +124,9 @@ sections:
       - title: Domain
         icon: favicon
         url: https://id.gandi.net/en/login
-      - title: FileList
-        icon: https://upload.wikimedia.org/wikipedia/commons/1/16/The_Pirate_Bay_logo.svg
-        url: https://filelist.io/
+      - title: Hack the Box
+        icon: favicon
+        url: https://www.hackthebox.com/home
       - title: Documentation
         subItems:
           - title: JavaScript
@@ -201,3 +207,4 @@ sections:
         options:
           stock: VOO
           apiKey: WU6QQXMALBL5ETKJ
+getHello from your shell
