@@ -1,10 +1,4 @@
-appConfig:
-  auth:
-    users:
-    - user: bogdan
-      hash: 1B99C3F079498CA98D48F9F535296E1B032EAF5A65A33C4346FF555254B9422D
-      type: admin
-    # Page meta info, like heading, footer text and nav links
+# Page meta info, like heading, footer text and nav links
 pageInfo:
   title: Hello, Bogdan
   description: General browser startpage
