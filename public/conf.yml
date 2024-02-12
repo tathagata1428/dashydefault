@@ -84,7 +84,7 @@ sections:
         icon: favicon
         url: https://gemini.google.com/app
         description: AI
-        tags: [hosted, personal, notes]
+        tags: [AI]
         hotkey: 8
       - title: Nextcloud
         icon: favicon
