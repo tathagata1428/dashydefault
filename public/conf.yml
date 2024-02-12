@@ -80,7 +80,7 @@ sections:
         description: Journaling selfhosted
         tags: [hosted, personal, files, backup, sync, storage]
         hotkey: 7
-      - title: Google Gemeni
+      - title: Gemeni AI
         icon: favicon
         url: https://gemini.google.com/app
         description: Gemeni A
