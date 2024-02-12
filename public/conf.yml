@@ -186,6 +186,8 @@ sections:
         description: Trading platform
         provider: IBKR
 
+ # Your existing YAML content before line 204
+
   - name: Financial
     icon: far fa-money
     widgets:
@@ -201,4 +203,3 @@ sections:
         options:
           stock: VOO
           apiKey: WU6QQXMALBL5ETKJ
-getHello from your shell
