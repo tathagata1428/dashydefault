@@ -83,8 +83,8 @@ sections:
       - title: Google Gemeni
         icon: favicon
         url: https://gemini.google.com/app
-        description: AI
-        tags: [AI]
+        description: Gemeni A
+        tags: [Generative AI]
         hotkey: 8
       - title: Nextcloud
         icon: favicon
