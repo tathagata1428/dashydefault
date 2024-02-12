@@ -80,10 +80,10 @@ sections:
         description: Journaling selfhosted
         tags: [hosted, personal, files, backup, sync, storage]
         hotkey: 7
-      - title: Microsoft Todo
+      - title: Google Gemeni
         icon: favicon
-        url: https://outlook.office.com/host/0d5c91ee-5be2-4b79-81ed-23e6c4580427/ToDoId
-        description: Notes
+        url: https://gemini.google.com/app
+        description: AI
         tags: [hosted, personal, notes]
         hotkey: 8
       - title: Nextcloud
