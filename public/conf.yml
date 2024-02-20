@@ -118,10 +118,10 @@ sections:
       - title: Domain
         icon: https://www.eureg.ro/img/eureg_logo.svg
         url: https://www.eureg.ro/ro/clienti/login?redirect=%2Fro%2Fclienti%2F
-      - title: Hack the Box
+      - title: ROTLD
         icon: favicon
-        url: https://www.hackthebox.com/home
-      - title: Documentation
+        url: https://www.rotld.ro/domadmin/
+      - title: Domain
         subItems:
           - title: JavaScript
             url: https://developer.mozilla.org
