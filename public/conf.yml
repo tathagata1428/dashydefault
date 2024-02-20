@@ -87,7 +87,7 @@ sections:
         tags: [Generative AI]
         hotkey: 8
       - title: Nextcloud
-        icon: favicon
+        icon: https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Nextcloud_Logo.svg/1024px-Nextcloud_Logo.svg.png
         url: https://cloud.b4it.ro
         description: Personal storage
         tags: [hosted, personal, storage]
