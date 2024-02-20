@@ -116,8 +116,8 @@ sections:
         icon: favicon
         url: https://vercel.com/bogdans-projects-061aab75/dashydefault/FbqafKDTAYPhUfZ346ExTiXqnLn2
       - title: Domain
-        icon: favicon
-        url: https://id.gandi.net/en/login
+        icon: https://www.eureg.ro/img/eureg_logo.svg
+        url: https://www.eureg.ro/ro/clienti/login?redirect=%2Fro%2Fclienti%2F
       - title: Hack the Box
         icon: favicon
         url: https://www.hackthebox.com/home
