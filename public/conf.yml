@@ -121,7 +121,7 @@ sections:
       - title: ROTLD
         icon: favicon
         url: https://www.rotld.ro/domadmin/
-      - title: Domain
+      - title: Documentation
         subItems:
           - title: JavaScript
             url: https://developer.mozilla.org
@@ -185,6 +185,16 @@ sections:
         url: https://www.interactivebrokers.co.uk/sso/Login
         description: Trading platform
         provider: IBKR
+      - title: Online Libraries
+        subItems:
+          - title: Library Genesis
+            url: https://www.libgen.is/
+            icon: fa-regular fa-book
+            color: '#F7DF1E'
+          - title: Z-Library
+            url: https://z-lib.io/
+            icon: fa-sharp fa-light fa-book
+            color: '#F7DF1E'
 
  # Your existing YAML content before line 204
 
