@@ -189,10 +189,10 @@ sections:
         subItems:
           - title: Library Genesis
             url: https://www.libgen.is/
-            icon: fa-book
+            icon: far fa-book
           - title: Z-Library
             url: https://z-lib.io/
-            icon: fa-book
+            icon: far fa-book
             
 
  # Your existing YAML content before line 204
