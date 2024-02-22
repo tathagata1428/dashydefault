@@ -190,9 +190,11 @@ sections:
           - title: Library Genesis
             url: https://www.libgen.is/
             icon: far fa-book
+            color: '#F7DF1E'
           - title: Z-Library
             url: https://z-lib.io/
             icon: far fa-book
+            color: '#00ADD8'
             
 
  # Your existing YAML content before line 204
