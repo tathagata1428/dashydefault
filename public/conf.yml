@@ -102,6 +102,10 @@ sections:
   - name: Dev & Cloud
     icon: far fa-code
     items:
+    widgets:
+      - type: code-stats
+        options:
+          username: tathagata1428  
       - title: GitHub
         icon: favicon
         url: https://github.com/tathagata1428
@@ -123,10 +127,6 @@ sections:
         url: https://www.rotld.ro/domadmin/
       - title: Documentation
         subItems:
-        widgets:
-      - type: code-stats
-        options:
-          username: tathagata1428  
           - title: JavaScript
             url: https://developer.mozilla.org
             icon: si-javascript
