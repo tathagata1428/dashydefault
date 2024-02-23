@@ -102,10 +102,6 @@ sections:
   - name: Dev & Cloud
     icon: far fa-code
     items:
-    widgets:
-      - type: code-stats
-        options:
-          username: tathagata1428  
       - title: GitHub
         icon: favicon
         url: https://github.com/tathagata1428
