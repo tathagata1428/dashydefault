@@ -123,6 +123,10 @@ sections:
         url: https://www.rotld.ro/domadmin/
       - title: Documentation
         subItems:
+        widgets:
+      - type: code-stats
+        options:
+          username: tathagata1428  
           - title: JavaScript
             url: https://developer.mozilla.org
             icon: si-javascript
@@ -147,11 +151,7 @@ sections:
             url: https://docs.docker.com/
             icon: si-docker
             color: '#2496ED'
-          widgets:
-          - type: code-stats
-              options:
-              username: tathagata1428
-
+         
   - name: Social & News
     icon: far fa-thumbs-up
     items:
