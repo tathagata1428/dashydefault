@@ -147,6 +147,10 @@ sections:
             url: https://docs.docker.com/
             icon: si-docker
             color: '#2496ED'
+          widgets:
+        - type: code-stats
+          options:
+          username: alicia
 
   - name: Social & News
     icon: far fa-thumbs-up
