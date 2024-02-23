@@ -148,9 +148,9 @@ sections:
             icon: si-docker
             color: '#2496ED'
           widgets:
-        - type: code-stats
-          options:
-          username: alicia
+          - type: code-stats
+              options:
+              username: tathagata1428
 
   - name: Social & News
     icon: far fa-thumbs-up
