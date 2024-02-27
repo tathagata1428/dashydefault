@@ -162,9 +162,9 @@ sections:
       - title: Reddit
         icon: si-reddit
         url: https://www.reddit.com/r/romania
-      - title: HackerNews
-        icon: si-ycombinator
-        url: https://news.ycombinator.com/
+      - title: Quora
+        icon: favicon
+        url: https://www.quora.com/profile/B4it
       - title: Twitter
         icon: si-twitter
         url: https://twitter.com/
