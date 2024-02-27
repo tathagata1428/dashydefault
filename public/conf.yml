@@ -22,12 +22,12 @@ sections:
       hideForGuests: false
     widgets:
       - type: clock
-      - type: weather-forecast
+      - type: weather
         options:
           city: Bucharest
-          numDays: 3
           apiKey: efdbade728b37086877a5e83442004db
-          units: metric               
+          units: metric
+          hideDetails: false       
       - type: crypto-watch-list
         options:
           currency: EUR
