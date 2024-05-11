@@ -88,10 +88,10 @@ sections:
         description: Gemeni A
         tags: [Generative AI]
         hotkey: 8
-      - title: Nextcloud
-        icon: https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Nextcloud_Logo.svg/1024px-Nextcloud_Logo.svg.png
-        url: https://cloud.b4it.ro
-        description: Personal storage
+      - title: Focus
+        icon: favicon
+        url: https://focus.b4it.ro
+        description: Pomodoro
         tags: [hosted, personal, storage]
         hotkey: 9
       - title: ChatGPT
@@ -100,6 +100,7 @@ sections:
         description: AI
         tags: [Generative AI]
         hotkey: 10
+        
 
   - name: Dev & Cloud
     icon: far fa-code
