@@ -70,9 +70,9 @@ sections:
         description: Music For work
         tags: [Music, Work]
         hotkey: 5
-      - title: Tasks
-        icon: https://i.ibb.co/v4jznK0/todo-list.png
-        url: https://cloud.b4it.ro/index.php/apps/deck/#/board/1
+      - title: Notion
+        icon: favicon
+        url: https://www.notion.so/
         description: Todo list and tasks from CalDAV
         tags: [hosted, personal, caldav, tasks, planning]
         hotkey: 6
@@ -89,7 +89,7 @@ sections:
         tags: [Generative AI]
         hotkey: 8
       - title: Focus
-        icon: favicon
+        icon: https://ibb.co/HBNmgy0
         url: https://focus.b4it.ro
         description: Pomodoro
         tags: [hosted, personal, storage]
