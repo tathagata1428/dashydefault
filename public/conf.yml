@@ -89,7 +89,7 @@ sections:
         tags: [Generative AI]
         hotkey: 8
       - title: Focus
-        icon: https://ibb.co/HBNmgy0
+        icon: si-go
         url: https://focus.b4it.ro
         description: Pomodoro
         tags: [hosted, personal, storage]
