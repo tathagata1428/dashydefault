@@ -124,6 +124,10 @@ sections:
       - title: ROTLD
         icon: favicon
         url: https://www.rotld.ro/domadmin/
+      - title: Notes
+        icon: favicon
+        url: http://tasks.b4it.ro:8000
+      - title: Documentation
       - title: Documentation
         subItems:
           - title: JavaScript
