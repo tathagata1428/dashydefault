@@ -92,7 +92,14 @@ sections:
         description: Pomodoro
         tags: [hosted, personal, storage]
         hotkey: 8
-            
+      - title: HQ
+        icon: far fa-briefcase
+        url: http://158.178.201.229:8000
+        description: HQ
+        tags: [hosted, personal, storage]
+        hotkey: 8
+
+        
 
   - name: Dev & Cloud
     icon: far fa-code
