@@ -83,7 +83,7 @@ sections:
         tags: [hosted, personal, files, backup, sync, storage]
         hotkey: 7
       - title: Notes
-        icon: si-notebook
+        icon: fa-notebook
         url: https://tasks.b4it.ro
       - title: Focus
         icon: si-go
