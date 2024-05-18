@@ -82,25 +82,16 @@ sections:
         description: Journaling selfhosted
         tags: [hosted, personal, files, backup, sync, storage]
         hotkey: 7
-      - title: Gemeni AI
-        icon: favicon
-        url: https://gemini.google.com/app
-        description: Gemeni A
-        tags: [Generative AI]
-        hotkey: 8
+      - title: Notes
+        icon: si-notebook
+        url: https://tasks.b4it.ro
       - title: Focus
         icon: si-go
         url: https://focus.b4it.ro
         description: Pomodoro
         tags: [hosted, personal, storage]
-        hotkey: 9
-      - title: ChatGPT
-        icon: favicon
-        url: https://chat.openai.com/?model=gpt-4
-        description: AI
-        tags: [Generative AI]
-        hotkey: 10
-        
+        hotkey: 8
+            
 
   - name: Dev & Cloud
     icon: far fa-code
@@ -124,9 +115,14 @@ sections:
       - title: ROTLD
         icon: favicon
         url: https://www.rotld.ro/domadmin/
-      - title: Notes
-        icon: si-notebook
-        url: http://tasks.b4it.ro:8000
+      - title: Gemeni AI
+        icon: favicon
+        url: https://gemini.google.com/app
+      - title: ChatGPT
+        icon: favicon
+        url: https://chat.openai.com/?model=gpt-4
+        description: AI
+
       - title: Documentation
         subItems:
           - title: JavaScript
