@@ -92,9 +92,9 @@ sections:
         description: Pomodoro
         tags: [hosted, personal, storage]
         hotkey: 8
-      - title: HQ
+      - title: FocalBoard
         icon: far fa-briefcase
-        url: http://158.178.201.229:8000
+        url: https://hq.b4it.ro
         description: HQ
         tags: [hosted, personal, storage]
         hotkey: 8
