@@ -99,6 +99,13 @@ sections:
         tags: [hosted, personal, storage]
         hotkey: 8
 
+      - title: Learning Platforms
+        subItems:
+          - title: Pluralsite
+            url: https://app.pluralsight.com/
+            icon: favicon
+            color: '#F7DF1E'
+
         
 
   - name: Dev & Cloud
