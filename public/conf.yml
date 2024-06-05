@@ -105,6 +105,10 @@ sections:
             url: https://app.pluralsight.com/
             icon: favicon
             color: '#F7DF1E'
+          - title: Udemy
+            url: https://www.udemy.com/
+            icon: favicon
+            color: '#F7DF1E'
 
         
 
