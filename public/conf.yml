@@ -134,9 +134,9 @@ sections:
       - title: ROTLD
         icon: favicon
         url: https://www.rotld.ro/domadmin/
-      - title: Gemeni AI
+      - title: Claude AI
         icon: favicon
-        url: https://gemini.google.com/app
+        url: https://claude.ai/new
       - title: ChatGPT
         icon: favicon
         url: https://chat.openai.com/?model=gpt-4
