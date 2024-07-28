@@ -141,6 +141,9 @@ sections:
         icon: favicon
         url: https://chat.openai.com/?model=gpt-4
         description: AI
+      - title: llama3.1
+        icon: favicon
+      - url: https://tsuyosa-master:8080
 
       - title: Documentation
         subItems:
