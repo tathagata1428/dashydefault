@@ -143,7 +143,7 @@ sections:
         description: AI
       - title: llama3.1
         icon: far fa-brain
-        url: https://tsuyosa-master:8080
+        url: http://tsuyosa-master:3000
         description: Local AI
       - title: Ollama Library
         icon: far fa-brain
