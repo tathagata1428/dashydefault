@@ -142,8 +142,13 @@ sections:
         url: https://chat.openai.com/?model=gpt-4
         description: AI
       - title: llama3.1
-        icon: favicon
-      - url: https://tsuyosa-master:8080
+        icon: far fa-brain
+        url: https://tsuyosa-master:8080
+        description: Local AI
+      - title: Ollama Library
+        icon: far fa-brain
+        url: https://ollama.com/library
+        description: Local AI
 
       - title: Documentation
         subItems:
