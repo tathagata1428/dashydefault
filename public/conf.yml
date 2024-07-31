@@ -245,4 +245,4 @@ sections:
           apiKey: WU6QQXMALBL5ETKJ
       - type: rss-feed
         options:
-        rssUrl: https://www.investing.com/rss/commodities_Technical.rss
+          rssUrl: https://www.investing.com/rss/commodities_Technical.rss
