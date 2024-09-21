@@ -134,9 +134,9 @@ sections:
       - title: ROTLD
         icon: favicon
         url: https://www.rotld.ro/domadmin/
-      - title: Claude AI
+      - title: Nextcloud
         icon: favicon
-        url: https://claude.ai/new
+        url: https://nextcloud.b4it.ro
       - title: ChatGPT
         icon: favicon
         url: https://chat.openai.com/?model=gpt-4
