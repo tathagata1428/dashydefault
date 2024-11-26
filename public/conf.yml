@@ -142,7 +142,7 @@ sections:
         url: https://chat.openai.com/?model=gpt-4
         description: AI
       - title: Jellyfin
-        icon: favicon
+        icon: far fa-cloud
         url: http://b4it.go.ro:1994/
         description: Local Media Player
       - title: Ollama Library
