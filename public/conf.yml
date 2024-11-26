@@ -94,7 +94,7 @@ sections:
         hotkey: 8
       - title: Planning
         icon: far fa-briefcase
-        url: https://nextcloud.b4it.ro/index.php/apps/deck/
+        url: http://b4it.go.ro:1991/login
         description: HQ
         tags: [hosted, personal, storage]
         hotkey: 8
