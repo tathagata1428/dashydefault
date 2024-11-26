@@ -94,7 +94,7 @@ sections:
         hotkey: 8
       - title: Planning
         icon: far fa-briefcase
-        url: http://b4it.go.ro:1991/login
+        url: http://b4it.go.ro:1995/
         description: HQ
         tags: [hosted, personal, storage]
         hotkey: 8
