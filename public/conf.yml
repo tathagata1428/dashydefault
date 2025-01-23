@@ -216,8 +216,8 @@ sections:
         provider: IBKR
       - title: Online Libraries
         subItems:
-          - title: Library Genesis
-            url: https://www.libgen.is/
+          - title: Ocean PDF
+            url: https://oceanofpdf.com/
             icon: far fa-book
             color: '#F7DF1E'
           - title: Z-Library
