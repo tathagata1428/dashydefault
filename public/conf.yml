@@ -134,9 +134,9 @@ sections:
       - title: ROTLD
         icon: favicon
         url: https://www.rotld.ro/domadmin/
-      - title: Nextcloud
+      - title: Deepseek
         icon: favicon
-        url: https://nextcloud.b4it.ro
+        url: https://chat.deepseek.com/
       - title: ChatGPT
         icon: favicon
         url: https://chat.openai.com/?model=gpt-4
